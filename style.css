@@ -1,0 +1,174 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --primary-color: #2196F3;
+  --secondary-color: #757575;
+  --black-color: #212121;
+}
+
+nav ul li a {
+
+  color: var(--black-color);
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+}
+
+nav ul {
+  list-style: none;
+}
+ul{
+ display: flex;
+  gap: 30px;
+}
+
+.number {
+  font-optical-sizing: auto;
+
+  color: var(--secondary-color);
+}
+
+.email {
+  font-optical-sizing: auto;
+ 
+  color: var(--secondary-color);
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  
+  color: black;
+}
+
+header {
+  display: flex;
+  width: 1500px;
+  height: 80px;
+  justify-content: space-around;
+}
+
+.art1 {
+  background-color: #2F303A;
+  width: 1500px;
+  height: 600px;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 44px;
+  line-height: 1.36; 
+  letter-spacing: 6%;
+  font-weight: 600;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  width: 216px;
+  height: 50px;
+  border: none;
+  margin-left: 40%;
+  border-radius: 4px;
+}
+
+.main-section {
+  display: flex;
+  letter-spacing: 3%;
+  padding-top: 60px;
+}
+
+.main-section h4 {
+  color: var(--black-color);
+  margin-left: 100px;
+}
+
+.main-section p {
+  color: #757575;
+  line-height: 1.5; /* 24 ÷ 16 */
+  margin-left: 100px;
+}
+
+h2 {
+  text-align: center;
+  color: var(--black-color);
+  font-size: 36px;
+}
+
+.art2 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.art2 img {
+  width: 370px;
+  height: 294px;
+  
+}
+
+.our-team {
+  text-align: center;
+  color: var(--black-color);
+}
+
+.team {
+  background-color: #F5F4FA;
+  width: 1500px;
+  height: 648px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.card1 {
+  background-color: white;
+  width: 270px;
+  height: 368px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.card1 img {
+  margin-top: -18%;
+  display: flex;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+   flex-wrap: wrap;
+}
+
+.footer {
+  padding-top: 20px;
+  background-color: #2F303A;
+  width: 1500px;
+  height: 252px;
+}
+
+.h2footer {
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+  font-size: 26px;
+  color: white;
+  padding-top: 20px;
+  margin-left: 20%;
+}
+
+.adress {
+  text-align: left;
+  color: white;
+  padding-top: 20px;
+  margin-left: 20%;
+}
+
+.emno2 {
+  text-align: left;
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 20%;
+}
